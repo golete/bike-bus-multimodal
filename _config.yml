@@ -1,8 +1,8 @@
-title: MUSA 550
+title: Bus-bike Multimodality Project
 logo: /assets/img/logo.png
 description: Geospatial Data Science in Python.
 show_downloads: false
-repository: MUSA-550-Fall-2021/github-pages-single-page-starter
+repository: golete/bike-bus-multimodal
 google_analytics:
 remote_theme: pages-themes/minimal
 plugins:
