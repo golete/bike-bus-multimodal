@@ -1,0 +1,94 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>passengerCount</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.3.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.3.3.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@0.12.1/dist/panel.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="5edf77c7-e541-4209-9202-15bfc2894b78" data-root-id="24749"></div>
+            
+          
+            
+              <div class="bk-root" id="535e92ff-4fb4-40a7-89e3-40daa04ec319" data-root-id="24949"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="25041">
+          {"70719f28-cf2a-4dc0-86f4-2ed7ba536844":{"defs":[{"extends":null,"module":null,"name":"ReactiveHTML1","overrides":[],"properties":[]},{"extends":null,"module":null,"name":"FlexBox1","overrides":[],"properties":[{"default":"flex-start","kind":null,"name":"align_content"},{"default":"flex-start","kind":null,"name":"align_items"},{"default":"row","kind":null,"name":"flex_direction"},{"default":"wrap","kind":null,"name":"flex_wrap"},{"default":"flex-start","kind":null,"name":"justify_content"}]},{"extends":null,"module":null,"name":"TemplateActions1","overrides":[],"properties":[{"default":0,"kind":null,"name":"open_modal"},{"default":0,"kind":null,"name":"close_modal"}]},{"extends":null,"module":null,"name":"MaterialTemplateActions1","overrides":[],"properties":[{"default":0,"kind":null,"name":"open_modal"},{"default":0,"kind":null,"name":"close_modal"}]}],"roots":{"references":[{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":1.0},"fill_color":{"value":"#368dff"},"hatch_alpha":{"value":1.0},"hatch_color":{"value":"black"},"hatch_scale":{"value":12.0},"hatch_weight":{"value":1.0},"line_alpha":{"value":1.0},"line_cap":{"value":"butt"},"line_color":{"value":null},"line_dash":{"value":[]},"line_dash_offset":{"value":0},"line_join":{"value":"bevel"},"line_width":{"value":1},"top":{"field":"EstPassengerCount"},"width":{"value":0.8},"x":{"field":"index"}},"id":"24803","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"24779","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#368dff"},"line_alpha":{"value":0.2},"line_color":{"value":null},"top":{"field":"EstPassengerCount"},"width":{"value":0.8},"x":{"field":"index"}},"id":"24800","type":"VBar"},{"attributes":{"callback":null,"renderers":[{"id":"24801"}],"tags":["hv_created"],"tooltips":[["index","@{index}"],["EstPassengerCount","@{EstPassengerCount}"]]},"id":"24755","type":"HoverTool"},{"attributes":{"text":"VehicleRef: 6079","text_color":"black","text_font_size":"12pt"},"id":"24759","type":"Title"},{"attributes":{"data_source":{"id":"24795"},"glyph":{"id":"24798"},"hover_glyph":null,"muted_glyph":{"id":"24800"},"nonselection_glyph":{"id":"24799"},"selection_glyph":{"id":"24803"},"view":{"id":"24802"}},"id":"24801","type":"GlyphRenderer"},{"attributes":{},"id":"24771","type":"BasicTicker"},{"attributes":{"source":{"id":"24795"}},"id":"24802","type":"CDSView"},{"attributes":{},"id":"24763","type":"CategoricalScale"},{"attributes":{},"id":"24765","type":"LinearScale"},{"attributes":{},"id":"24768","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"24767"},"grid_line_color":null,"ticker":null},"id":"24769","type":"Grid"},{"attributes":{"axis_label":"","formatter":{"id":"24791"},"major_label_policy":{"id":"24789"},"ticker":{"id":"24768"}},"id":"24767","type":"CategoricalAxis"},{"attributes":{"source":{"id":"24807"}},"id":"24813","type":"CDSView"},{"attributes":{},"id":"24822","type":"UnionRenderers"},{"attributes":{"data":{"EstPassengerCount":{"__ndarray__":"AAAAAAAAIkAAAAAAAAD4fwAAAAAAACJAAAAAAAAA+H8AAAAAAAAgQAAAAAAAAPh/AAAAAAAAIEAAAAAAAAD4fwAAAAAAACZAAAAAAAAA+H8AAAAAAAAkQAAAAAAAAPh/AAAAAAAAKkAAAAAAAAD4fwAAAAAAADBAAAAAAAAA+H8AAAAAAAAxQAAAAAAAAPh/AAAAAAAANkAAAAAAAAD4fwAAAAAAADdAAAAAAAAA+H8AAAAAAAA0QAAAAAAAAPh/AAAAAAAANkAAAAAAAAD4fwAAAAAAADZAAAAAAAAA+H8AAAAAAAA2QAAAAAAAAPh/AAAAAAAAMkAAAAAAAAD4fwAAAAAAAC5AAAAAAAAA+H8AAAAAAAAuQAAAAAAAAPh/AAAAAAAALkAAAAAAAAD4fwAAAAAAACxA","dtype":"float64","order":"little","shape":[39]},"index":["0","nan","1","nan","2","nan","3","nan","4","nan","5","nan","6","nan","7","nan","8","nan","9","nan","10","nan","11","nan","12","nan","13","nan","14","nan","15","nan","16","nan","17","nan","18","nan","19"]},"selected":{"id":"24796"},"selection_policy":{"id":"24822"}},"id":"24795","type":"ColumnDataSource"},{"attributes":{"axis_label":"EstPassengerCount","formatter":{"id":"24792"},"major_label_policy":{"id":"24793"},"ticker":{"id":"24771"}},"id":"24770","type":"LinearAxis"},{"attributes":{"axis":{"id":"24770"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"24773","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#368dff"},"line_alpha":{"value":0.1},"line_color":{"value":null},"top":{"field":"EstPassengerCount"},"width":{"value":0.8},"x":{"field":"index"}},"id":"24799","type":"VBar"},{"attributes":{},"id":"24775","type":"PanTool"},{"attributes":{},"id":"24776","type":"WheelZoomTool"},{"attributes":{"data":{"text":["62nd St.\nbus stop"],"x":["8"],"y":[23]},"selected":{"id":"24808"},"selection_policy":{"id":"24824"}},"id":"24807","type":"ColumnDataSource"},{"attributes":{"active_multi":null,"tools":[{"id":"24755"},{"id":"24774"},{"id":"24775"},{"id":"24776"},{"id":"24777"},{"id":"24778"}]},"id":"24780","type":"Toolbar"},{"attributes":{"dimension":"height","level":"glyph","location":9},"id":"24806","type":"Span"},{"attributes":{"margin":[5,5,5,5],"name":"VSpacer59526","sizing_mode":"stretch_height"},"id":"24936","type":"Spacer"},{"attributes":{},"id":"24774","type":"SaveTool"},{"attributes":{"fill_color":{"value":"#368dff"},"line_color":{"value":null},"top":{"field":"EstPassengerCount"},"width":{"value":0.8},"x":{"field":"index"}},"id":"24798","type":"VBar"},{"attributes":{},"id":"24824","type":"UnionRenderers"},{"attributes":{"overlay":{"id":"24779"}},"id":"24777","type":"BoxZoomTool"},{"attributes":{},"id":"24778","type":"ResetTool"},{"attributes":{},"id":"24808","type":"Selection"},{"attributes":{},"id":"24791","type":"CategoricalTickFormatter"},{"attributes":{"children":[{"id":"24750"},{"id":"24758"},{"id":"24931"},{"id":"24932"}],"margin":[0,0,0,0],"name":"Row59519","tags":["embedded"]},"id":"24749","type":"Row"},{"attributes":{"text_align":{"value":"center"},"text_baseline":{"value":"middle"},"text_color":{"value":"black"},"text_font_size":{"value":"6Pt"},"x":{"field":"x"},"y":{"field":"y"}},"id":"24810","type":"Text"},{"attributes":{},"id":"24789","type":"AllLabels"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer59528","sizing_mode":"stretch_width"},"id":"24750","type":"Spacer"},{"attributes":{"text_align":{"value":"center"},"text_alpha":{"value":0.1},"text_baseline":{"value":"middle"},"text_color":{"value":"black"},"text_font_size":{"value":"6Pt"},"x":{"field":"x"},"y":{"field":"y"}},"id":"24811","type":"Text"},{"attributes":{},"id":"24796","type":"Selection"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer59529","sizing_mode":"stretch_width"},"id":"24931","type":"Spacer"},{"attributes":{},"id":"24792","type":"BasicTickFormatter"},{"attributes":{"angle":{"value":0.0},"text":{"field":"text"},"text_align":{"value":"center"},"text_alpha":{"value":1.0},"text_baseline":{"value":"middle"},"text_color":{"value":"black"},"text_font_size":{"value":"6Pt"},"text_font_style":{"value":"normal"},"text_line_height":{"value":1.2},"x":{"field":"x"},"x_offset":{"value":0},"y":{"field":"y"},"y_offset":{"value":0}},"id":"24814","type":"Text"},{"attributes":{"margin":[5,5,5,5],"name":"VSpacer59525","sizing_mode":"stretch_height"},"id":"24933","type":"Spacer"},{"attributes":{"factors":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],"tags":[[["index","index",null]]]},"id":"24753","type":"FactorRange"},{"attributes":{},"id":"24793","type":"AllLabels"},{"attributes":{"data_source":{"id":"24807"},"glyph":{"id":"24810"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"24811"},"selection_glyph":{"id":"24814"},"view":{"id":"24813"}},"id":"24812","type":"GlyphRenderer"},{"attributes":{"state":{"6079":{"content":"{\"events\": [{\"attr\": \"factors\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24753\"}, \"new\": [\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"10\", \"11\", \"12\", \"13\", \"14\", \"15\", \"16\", \"17\", \"18\", \"19\"]}, {\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24754\"}, \"new\": 24.5}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24754\"}, \"new\": 24.5}, {\"cols\": null, \"column_source\": {\"id\": \"24795\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"EstPassengerCount\": {\"__ndarray__\": \"AAAAAAAAIkAAAAAAAAD4fwAAAAAAACJAAAAAAAAA+H8AAAAAAAAgQAAAAAAAAPh/AAAAAAAAIEAAAAAAAAD4fwAAAAAAACZAAAAAAAAA+H8AAAAAAAAkQAAAAAAAAPh/AAAAAAAAKkAAAAAAAAD4fwAAAAAAADBAAAAAAAAA+H8AAAAAAAAxQAAAAAAAAPh/AAAAAAAANkAAAAAAAAD4fwAAAAAAADdAAAAAAAAA+H8AAAAAAAA0QAAAAAAAAPh/AAAAAAAANkAAAAAAAAD4fwAAAAAAADZAAAAAAAAA+H8AAAAAAAA2QAAAAAAAAPh/AAAAAAAAMkAAAAAAAAD4fwAAAAAAAC5AAAAAAAAA+H8AAAAAAAAuQAAAAAAAAPh/AAAAAAAALkAAAAAAAAD4fwAAAAAAACxA\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [39]}, \"index\": [\"0\", \"nan\", \"1\", \"nan\", \"2\", \"nan\", \"3\", \"nan\", \"4\", \"nan\", \"5\", \"nan\", \"6\", \"nan\", \"7\", \"nan\", \"8\", \"nan\", \"9\", \"nan\", \"10\", \"nan\", \"11\", \"nan\", \"12\", \"nan\", \"13\", \"nan\", \"14\", \"nan\", \"15\", \"nan\", \"16\", \"nan\", \"17\", \"nan\", \"18\", \"nan\", \"19\"]}}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24759\"}, \"new\": \"VehicleRef: 6079\"}], \"references\": []}","header":"{\"msgid\": \"24992\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"6105":{"content":"{\"events\": [{\"attr\": \"factors\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24753\"}, \"new\": [\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"10\", \"11\"]}, {\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24754\"}, \"new\": 17.5}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24754\"}, \"new\": 17.5}, {\"cols\": null, \"column_source\": {\"id\": \"24795\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"EstPassengerCount\": {\"__ndarray__\": \"AAAAAAAAMEAAAAAAAAD4fwAAAAAAADBAAAAAAAAA+H8AAAAAAAAmQAAAAAAAAPh/AAAAAAAAIkAAAAAAAAD4fwAAAAAAACJAAAAAAAAA+H8AAAAAAAAqQAAAAAAAAPh/AAAAAAAALkAAAAAAAAD4fwAAAAAAACxAAAAAAAAA+H8AAAAAAAAgQAAAAAAAAPh/AAAAAAAAEEAAAAAAAAD4fwAAAAAAAPA/AAAAAAAA+H8AAAAAAADwPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [23]}, \"index\": [\"0\", \"nan\", \"1\", \"nan\", \"2\", \"nan\", \"3\", \"nan\", \"4\", \"nan\", \"5\", \"nan\", \"6\", \"nan\", \"7\", \"nan\", \"8\", \"nan\", \"9\", \"nan\", \"10\", \"nan\", \"11\"]}}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"24759\"}, \"new\": \"VehicleRef: 6105\"}], \"references\": []}","header":"{\"msgid\": \"24983\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"}},"values":["6079"],"widgets":{"24935":0}},"id":"24949","type":"panel.models.state.State"},{"attributes":{"children":[{"id":"24933"},{"id":"24934"},{"id":"24936"}],"margin":[0,0,0,0],"name":"Column59527"},"id":"24932","type":"Column"},{"attributes":{"background_fill_color":"#ffd036","below":[{"id":"24767"}],"center":[{"id":"24769"},{"id":"24773"}],"height":300,"left":[{"id":"24770"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"renderers":[{"id":"24801"},{"id":"24806"},{"id":"24812"}],"sizing_mode":"fixed","title":{"id":"24759"},"toolbar":{"id":"24780"},"width":450,"x_range":{"id":"24753"},"x_scale":{"id":"24763"},"y_range":{"id":"24754"},"y_scale":{"id":"24765"}},"id":"24758","subtype":"Figure","type":"Plot"},{"attributes":{"children":[{"id":"24935"}],"css_classes":["panel-widget-box"],"margin":[5,5,5,5],"name":"WidgetBox59520"},"id":"24934","type":"Column"},{"attributes":{"end":24.5,"reset_end":24.5,"reset_start":0.0,"tags":[[["EstPassengerCount","EstPassengerCount",null]]]},"id":"24754","type":"Range1d"},{"attributes":{"js_property_callbacks":{"change:value":[{"id":"24950"}]},"margin":[20,20,20,20],"min_width":250,"options":["6079","6105"],"title":"VehicleRef","value":"6079","width":250},"id":"24935","type":"Select"},{"attributes":{"code":"\nvar state = null\nfor (var root of cb_obj.document.roots()) {\n  if (root.id == '24949') {\n    state = root;\n    break;\n  }\n}\nif (!state) { return; }\nstate.set_state(cb_obj, cb_obj.value)\n"},"id":"24950","type":"CustomJS"}],"root_ids":["24749","24949"]},"title":"Bokeh Application","version":"2.3.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('25041').textContent;
+                  var render_items = [{"docid":"70719f28-cf2a-4dc0-86f4-2ed7ba536844","root_ids":["24749","24949"],"roots":{"24749":"5edf77c7-e541-4209-9202-15bfc2894b78","24949":"535e92ff-4fb4-40a7-89e3-40daa04ec319"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
