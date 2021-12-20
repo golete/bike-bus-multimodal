@@ -15,7 +15,9 @@ folium-loader:
 
 This single-page website demos how to display visualizations created with altair, hvplot, and folium.
 
-For examples of how to use markdown to style text, see this [this page](./another-page.html).
+![map showing MTA transit system]({{ site.url }}{{ site.baseurl }}/assets/images/bbmm_01.png
+
+![map showing closeups of stops to be considered]({{ site.url }}{{ site.baseurl }}/assets/images/bbmm_01.png
 
 # Example: Embedding Altair & Hvplot Charts
 
