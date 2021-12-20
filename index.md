@@ -1,7 +1,9 @@
 ---
 layout: default
 altair-loader:
-  altair-chart-1: "charts/measlesAltair.json"
+  altair-chart-1: "charts/bikecountAltair-008.json"
+  altair-chart-2: "charts/bikecountAltair-062.json"
+  altair-chart-3: "charts/bikecountAltair-111.json"
 hv-loader:
   hv-chart-1: ["charts/measlesHvplot.html", "500"] # second argument is the desired height
 folium-loader:
@@ -24,6 +26,10 @@ This section will show examples of embedding interactive charts produced using [
 Below is a chart of the incidence of measles since 1928 for the 50 US states.
 
 <div id="altair-chart-1"></div>
+
+<div id="altair-chart-2"></div>
+
+<div id="altair-chart-3"></div>
 
 This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
 
