@@ -79,5 +79,5 @@ The interaction of passenger counts and bike availability can also be visualized
 
 ## Notes
 
-- See the [lecture 13A slides](https://musa-550-fall-2021.github.io/slideslecture-13A.html) for the code that produced these plots.
+- See the [jupyter notebook](https://github.com/golete/bike-bus-project/blob/main/550-Final_Main.ipynb) that produced these plots.
 
