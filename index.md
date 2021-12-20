@@ -5,19 +5,16 @@ altair-loader:
   altair-chart-2: "charts/bikecountAltair-062.json"
   altair-chart-3: "charts/bikecountAltair-111.json"
 hv-loader:
-  hv-chart-1: ["charts/measlesHvplot.html", "500"] # second argument is the desired height
-folium-loader:
-  folium-chart-1: ["charts/foliumChart.html", "400"] # second argument is the desired height
-  folium-chart-2: ["charts/percent_no_internet.html", "400"] # second argument is the desired height
+  hv-chart-1: ["charts/vehicleCount.html", "500"] # second argument is the desired height
 ---
 
-# Welcome!
+# Looking at bus-bike multimodality in NYC
 
 This single-page website demos how to display visualizations created with altair, hvplot, and folium.
 
-![map showing MTA transit system]({{ site.url }}{{ site.baseurl }}/assets/images/bbmm_01.png)
+![map showing MTA transit system]({{ site.url }}{{ site.baseurl }}/assets/img/bbmm_01.png)
 
-![map showing closeups of stops to be considered]({{ site.url }}{{ site.baseurl }}/assets/images/bbmm_01.png)
+![map showing closeups of stops to be considered]({{ site.url }}{{ site.baseurl }}/assets/img/bbmm_01.png)
 
 # Example: Embedding Altair & Hvplot Charts
 
@@ -40,11 +37,16 @@ import altair as alt
 alt.renderers.enable('notebook')
 ```
 
-## HvPlot Example
+![Alt Text]({{ site.url }}{{ site.baseurl }}/assets/img/busBike.gif)
+
+## Passenger counts
 
 Lastly, the measles incidence produced using the HvPlot package:
 
 <div id="hv-chart-1"></div>
+
+
+![Alt Text]({{ site.url }}{{ site.baseurl }}/assets/img/busPass.gif)
 
 ## Notes
 
@@ -52,22 +54,4 @@ Lastly, the measles incidence produced using the HvPlot package:
 
 **Important: When embedding charts, you will likely need to adjust the width/height of the charts before embedding them in the page so they fit nicely when embedded.**
 
-# Example: Embedding Folium charts
 
-This post will show examples of embedding interactive maps produced using [Folium](https://github.com/python-visualization/folium).
-
-## OSMnx and Street Networks
-
-The shortest route between the Art Museum and the Liberty Bell:
-
-<div id="folium-chart-1"></div>
-
-<br/>
-
-## Percentage of Households without Internet
-
-The percentage of households without internet by county:
-
-<div id="folium-chart-2"></div>
-
-See the [lecture 9B slides](https://musa-550-fall-2021.github.io/slides/lecture-9B.html) and the [lecture 10A slides](https://musa-550-fall-2021.github.io/slides/lecture-10A.html) for the code that produced these plots.
