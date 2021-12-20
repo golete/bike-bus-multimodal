@@ -8,13 +8,15 @@ hv-loader:
   hv-chart-1: ["charts/vehicleCount.html", "500"] # second argument is the desired height
 ---
 
-# Looking at bus-bike multimodality in NYC
+# Multimodal Interactions
+
+
 
 This single-page website demos how to display visualizations created with altair, hvplot, and folium.
 
 ![map showing MTA transit system]({{ site.url }}{{ site.baseurl }}/assets/img/bbmm_01.png)
 
-![map showing closeups of stops to be considered]({{ site.url }}{{ site.baseurl }}/assets/img/bbmm_01.png)
+![map showing closeups of stops to be considered]({{ site.url }}{{ site.baseurl }}/assets/img/bbmm_02.png)
 
 # Example: Embedding Altair & Hvplot Charts
 
