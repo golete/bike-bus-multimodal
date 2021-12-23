@@ -12,7 +12,7 @@ hv-loader:
 
 ## Introduction
 
-Was the relation between bus arrivals and departures from a metropolitan bus stop, and the bike-share use in their vicinity? Is there a way to asses the interaction between both systems in order to provide advantages to users of both systems, like free rides for people just dropping off the bus (similar to how transfers work)? 
+What is the relation between bus arrivals and departures from a metropolitan bus stop, and the bike-share use in their vicinity? Is there a way to asses the interaction between both systems in order to provide advantages to users of both systems, like free rides for people just dropping off the bus that would similar to transit transfers? 
 
 This project consists in a method to simultaneously retrieve real-time data from both the New York City's [MTA Bus API](https://bt.mta.info/wiki/Developers/Index) and [Citi Bike's Open Data live feed](https://ride.citibikenyc.com/system-data), wrangle it and display it in a way that shows possible interactions between both transit systems.
 
