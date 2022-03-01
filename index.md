@@ -21,6 +21,7 @@ In order to do so, three bus stop-bike dock pairs were selected among the same M
 * to be at least three blocks away from any Subway stations.
 * to only serve the bus route selected.
 * to be located sufficiently far apart and thus have different demographic or socioeconomic conditions around.
+* test.
 
 
 ![map showing MTA transit system]({{ site.url }}{{ site.baseurl }}/assets/img/bbmm_01.png)
