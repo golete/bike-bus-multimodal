@@ -4,5 +4,5 @@ description: Geospatial Data Science in Python: Final Project.
 show_downloads: false
 repository: golete/bike-bus-multimodal
 google_analytics:
-theme: jekyll-theme-cayman
+theme: jekyll-theme-tactile
 plugins:
