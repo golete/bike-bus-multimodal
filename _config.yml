@@ -6,3 +6,5 @@ repository: golete/bike-bus-multimodal
 google_analytics:
 remote_theme: ben-balter/retlab
 
+
+theme: jekyll-theme-minimal
